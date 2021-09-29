@@ -18,7 +18,7 @@ html{
 
 .sedan-section-container{
     position: relative;
-    height: 560px;
+    height: 90vh;
     background-color: hsl(31, 77%, 52%);
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ html{
 }
 
 .sedan-icon-container{
-    width: 30%;
+    width: 110px;
     height: 70px;
     background-image: url("../images/icon-sedans.svg");
     background-repeat: no-repeat;
@@ -78,7 +78,7 @@ html{
 
 .suv-section-container{
     position: relative;
-    height: 560px;
+    height: 90vh;
     background-color: hsl(184, 100%, 22%);
     display: flex;
     flex-direction: column;
@@ -87,7 +87,7 @@ html{
 }
 
 .suv-icon-container{
-    width: 30%;
+    width: 110px;
     height: 70px;
     background-image: url("../images/icon-suvs.svg");
     background-repeat: no-repeat;
@@ -138,7 +138,7 @@ html{
 
 .luxury-section-container{
     position: relative;
-    height: 560px;
+    height: 90vh;
     background-color: hsl(179, 100%, 13%);
     display: flex;
     flex-direction: column;
@@ -147,7 +147,7 @@ html{
 }
 
 .luxury-icon-container{
-    width: 30%;
+    width: 110px;
     height: 70px;
     background-image: url("../images/icon-luxury.svg");
     background-repeat: no-repeat;
@@ -191,4 +191,14 @@ html{
     background-color: hsl(0, 0%, 95%);
     border-radius: 30px;
     cursor: pointer;
+}
+
+.attribution{
+    color: black;
+    text-align: center;
+}
+
+.attribution a{
+    text-decoration: none;
+    color: rgb(64, 228, 160);
 }
